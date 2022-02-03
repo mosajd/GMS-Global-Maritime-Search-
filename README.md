@@ -32,7 +32,7 @@
 <figure>
 <p>In this picture you can see how both deterministic and stochastic parameters affect on the time of voyage.</p>
 <img src="https://github.com/mosajd/GMS-Global-Maritime-Search-/blob/main/time.jpg" alt="time">
-</figure><br><br>
+</figure><br>
 <figure>
 <p>And in this one you see how both deterministic and stochastic parameters in this software affect on the cost of voyage.</p>
 <img src="https://github.com/mosajd/GMS-Global-Maritime-Search-/blob/main/cost.jpg" alt="time">
@@ -44,10 +44,14 @@
 <p>3 - In this step, maritime distance between departure and arrival ports is shown. This distance found from <a href='https://www.aquaplot.com/explorer'>Aquaplot website</a> and compared with the given distances by <a href='https://www.portworld.com/map'>Portworld website</a>. You can also change the distance here and all of the next calculation will be done base on the given distance in this box.</p>
 <p>4 - The software recommends you the average shipping speed, but it is better to change it if you have more accurate maritime shipping speed for this route.</p>
 <p>Finally, based on the all given data, the shipping time is calculated.</p>
-<p>You can see the shipping route on the map by pusshing the "Show on the map" button.</p>
 <figure>
 <img src="https://github.com/mosajd/GMS-Global-Maritime-Search-/blob/main/tutorial_images/tutorial_routes.jpg" alt="tutorial routes">
-</figure><br><br>
+</figure><br>
+<p>You can see the shipping route on the map by pushing the "Show on the map" button. This map is created by the <a href='https://python-visualization.github.io/folium/'>Folium</a> package inside the python to show the animated route.</p>
+<p>By using the 'Measure Distances and Areas' inside the map you can measure the route manualy.</p>
+<figure>
+<img src="https://github.com/mosajd/GMS-Global-Maritime-Search-/blob/main/tutorial_images/tutorial_map.jpg" alt="tutorial map">
+</figure><br>
 <h3>Vessel</h3>
 <p>5 - Select one of the vessels from the list that their parameters found from <a href='https://services-webdav.cbs.dk/doc/CBS.dk/Arctic%20Shipping%20-%20Commercial%20Opportunities%20and%20Challenges.pdf'>Arctic Shipping Commercial Opportunites and Challenges</a>.</p>
 <b>Note: </b>Fuel tank capacities of the given vessel in the list are assumed and not found from the reference.
@@ -60,13 +64,13 @@
 <p>9 - Here you can define the Average salary for the crew per month.</p>
 <figure>
 <img src="https://github.com/mosajd/GMS-Global-Maritime-Search-/blob/main/tutorial_images/tutorial_vessel.jpg" alt="tutorial vessel">
-</figure><br><br>
+</figure><br>
 <h3>Cargo</h3>
 <p>10 - In this section you can define the value of the cargo, that affects on the cargo insurance cost.</p>
 <p>11 - Here you can define the cargo insurance by defining the percentage of the value of cargo.</p>
 <figure>
 <img src="https://github.com/mosajd/GMS-Global-Maritime-Search-/blob/main/tutorial_images/tutorial_cargo.jpg" alt="tutorial cargo">
-</figure><br><br>
+</figure><br>
 <h3>Time</h3>
 <p>12 - You can difine the estimated delay time for Bureaucracy and administrative.</p>
 <p>13 - Port dwell time is the amount of time which cargo or ships spend within the port. This model recommends dwelling time based on the TEU vessel parameter that found from <a href='https://www.tandfonline.com/doi/abs/10.1080/03088839.2018.1473656?needAccess=true&journalCode=tmpm20'>this article</a>.</p>
@@ -74,18 +78,18 @@
 <p>At the end, 'shipping time' added to the 'dwell time', 'bunkering time' and 'Bureaucracy and administrative dely time' to estimate total shipping time for this voyage.</p>
 <figure>
 <img src="https://github.com/mosajd/GMS-Global-Maritime-Search-/blob/main/tutorial_images/tutorial_time.jpg" alt="tutorial time">
-</figure><br><br>
+</figure><br>
 <h3>Fuel</h3>
 <p>15 - You should select one of the fuel type for the vessel that affects on the cost, time (bunkering time) and environmental cost.</p>
 <p>In the Fuel Cost box, the 'Total Fuel Price in this voyage' in respect of 'Fuel Price' and 'Fuel Consumption' is calculated.</p>
 <figure>
 <img src="https://github.com/mosajd/GMS-Global-Maritime-Search-/blob/main/tutorial_images/tutorial_fuel.jpg" alt="tutorial fuel">
-</figure><br><br>
+</figure><br>
 <h3>Environment</h3>
 <p>In this tab, by pushing the 'Calculate Environment Cost', 'Cost of Air Pollution (CAP)' and 'Cost of Global Warming (CGW) for this voyage is estimated. The environmental cost in respect of 'route', 'type of oil', 'amount of fuel consumption in the voyage' and 'TEU vessel parameter' derived from <a href='https://www.sciencedirect.com/science/article/abs/pii/S0308597X20301792'>this article</a>.</p>
 <figure>
 <img src="https://github.com/mosajd/GMS-Global-Maritime-Search-/blob/main/tutorial_images/tutorial_environment.jpg" alt="tutorial Environment">
-</figure><br><br>
+</figure><br>
 <h3>Cost</h3>
 <p>16 - Port dues cost usually consists of including port entry due, berthing due and line-handling charge in total for each port entry. The following formula found from <a href='https://www.researchgate.net/profile/Masahiko-Furuichi/publication/246545438_Cost_Analysis_of_the_Northern_Sea_Route_NSR_and_the_Conventional_Route_Shipping/links/02e7e51d97c39e870e000000/Cost-Analysis-of-the-Northern-Sea-Route-NSR-and-the-Conventional-Route-Shipping.pdf'>this article</a> and applied in this model:</p>
 <pre>Port Dues Cost = $0.428 / GT / call</pre>
@@ -95,12 +99,12 @@
 <p>In the next boxes, the other costs based on the total days of shipping is calculated seperately and at the end added togother to find total cost of this voyage.</p>
 <figure>
 <img src="https://github.com/mosajd/GMS-Global-Maritime-Search-/blob/main/tutorial_images/tutorial_cost.jpg" alt="tutorial Cost">
-</figure><br><br>
+</figure><br>
 <p>By pushing the 'Show on the Pie Chart' button, the percentage of the total cost on the pie chart in a new window will be showed.</p>
 <figure>
 <img src="https://github.com/mosajd/GMS-Global-Maritime-Search-/blob/main/tutorial_images/tutorial_pie_chart.jpg" alt="tutorial Pie Chart">
-</figure><br><br>
-<h3>Risk</h3>
+</figure><br>
+<h3>Stochastic</h3>
 <p>All of the calculations done so far were based on the deterministic inputs. But we know that in real life there are many stochastic parameters like fuel price and weather condition that signifantly affect the output. In this model the <a href='https://en.wikipedia.org/wiki/Monte_Carlo_method'>Monte Carlo</a> method is implemented to estimate the result of stochastic parameters on both cost and time.</p>
 <h4>Fuel Price</h4>
 <p>Fuel price usually follows the normal distribution that by defining the mean and standard deviation simulates.</p>
@@ -112,6 +116,6 @@ In this simulation for the weather condition considered the margin percentage af
 <h4>Simulation</h4>
 <p>By defining the sample random number, random numbers generate and function for calculating time and cost is run. And finally the result will be shown on the histogram for both time and cost.</p>
 <figure>
-<img src="https://github.com/mosajd/GMS-Global-Maritime-Search-/blob/main/tutorial_images/tutorial_risk.jpg" alt="tutorial Risk">
-</figure><br><br>
+<img src="https://github.com/mosajd/GMS-Global-Maritime-Search-/blob/main/tutorial_images/tutorial_stochastic.jpg" alt="tutorial stochastic">
+</figure><br>
 
