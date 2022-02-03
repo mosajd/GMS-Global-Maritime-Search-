@@ -16,6 +16,8 @@
       <li><a href=#stochastic>Stochastic</a></li>
     </ul>
   </li>
+  <li><a href=#>Futute Studies</a>
+  <li><a href=#>How to run the software</a>
   
 </ul>
 <h2>Porpuse</h2>
