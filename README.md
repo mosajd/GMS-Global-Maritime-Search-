@@ -26,7 +26,7 @@
 <h2>Introduction</h2>
 <p>According to global warming, icebergs in the artic ocean is expected to melt in a few years. Due to the likely consequences, the maritime artic sea route pole would become available for vessel ships to sail across without utilizing specific equipment such as ice breakers.</p>
 <p>Therefore, analyzing and comparing artic sea route passage with other routes can be considered for many businesses particularly for freight companies.</p>
-<p>GMS (Global Maritime Search) software which is one of the teamwork projects for 'Modelling and Design of Complex Systems' course from the master program of 'Engineering Technology for Strategy and Security - Strategos' at the University of Genova is designed to model this scenario.</p>
+<p>GMS (Global Maritime Search) software which is one of the teamwork projects for <a href='http://www.simulationteam.com/strategos/edu/complexsystems/'>'Modelling and Design of Complex Systems'</a> course from the prestigious master program of <a href='http://www.itim.unige.it/cs/strategos/'>'Engineering Technology for Strategy and Security - Strategos'</a> at the <a href='https://unige.it/en'>University of Genova</a> is designed to model this scenario.</p>
 <h2>Model</h2>
 <p>This model currently evaluating, analyzing, and comparing two routes: Suez Canal Route (SCR) and Northern Sea Route (NSR), considering that NSR is free of icebergs and is accessible at most times of the year.</p>
 <p>This model calculates both Time and Cost for each desired voyage in both <b>deterministic</b> and <b>stochastic (probabilistic)</b> simulations.</p>
