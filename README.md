@@ -142,7 +142,7 @@ In this simulation for the weather condition considered the margin percentage af
   <ol>
       <li>Downoload the GMS.exe file from the release.</li>
       <li>Install the file on your system. It doesn't require to have installed python or its packages.</li>
-      <li>After installing go to the installed directory and run gms.exe.</li>
+      <li>After finishing installation go to the installed directory and run gms.exe.</li>
   </ol>
 </div>
 
