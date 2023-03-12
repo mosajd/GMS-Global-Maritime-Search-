@@ -4,7 +4,7 @@
   <li><a href=#porpuse>Porpuse</a></li>
   <li><a href=#introduction>Introduction</a></li>
   <li><a href=#model>Model</a></li>
-  <li><a href=#tutorial>Tutorial</a>
+  <li><a href=#tutorial>Tutorial</a></li>
     <ul>
       <li><a href=#routes>Routes</a></li>
       <li><a href=#vessel>Vessel</a></li>
@@ -15,10 +15,7 @@
       <li><a href=#cost>Cost</a></li>
       <li><a href=#stochastic>Stochastic</a></li>
     </ul>
-  </li>
-  <li><a href=#>Futute Studies</a>
-  <li><a href=#>How to run the software</a>
-  
+  <li><a href=#How to run the software>How to run the software</a></li>
 </ul>
 <h2>Porpuse</h2>
 <p>This software is designed for this purpose to be a tool to simulate and calculate the cost and time of sailing through Northern Sea Route (NSR) and  Suez Canal Route (SCR).</p>
@@ -138,3 +135,35 @@ In this simulation for the weather condition considered the margin percentage af
 <figure>
 <img src="https://github.com/mosajd/GMS-Global-Maritime-Search-/blob/main/tutorial_images/tutorial_stochastic.jpg" alt="tutorial stochastic">
 </figure><br>
+<h2>How to run the software</h2>
+
+<div id=How to run the software>
+<h3>Running the windows installer version</h3>
+  <ol>
+      <li>Downoload the GMS.exe file from the release.</li>
+      <li>Install the file on your system. It doesn't require to have installed python or its packages.</li>
+      <li>After installing go to the installed directory and run gms.exe.</li>
+  </ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
